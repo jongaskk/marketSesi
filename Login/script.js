@@ -1,4 +1,6 @@
 function login(){
     var nome = $('#nome').val()
-    console.log(nome)
+    var senha = $('#senha').val()
+
+    console.log(nome, senha)
 }
