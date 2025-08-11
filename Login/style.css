@@ -91,19 +91,19 @@ body{
 
 .wrap-input-label input:focus{
     outline: none;
-    color: green;
+    color: rgb(234, 40, 40);
 }
 
 .btn-login{
     padding: 5px;
     width: 80%;
-    background-color: #ff7d00;
+    background-color: #b51212;
     border-radius: 999px;
     border: none;
-    border: 4px solid green;
+    border: 4px solid rgb(0, 0, 0);
     font-size: 18px;
     font-weight: bold;
-    color: green;
+    color: rgb(0, 0, 0);
     transition: all 200ms ease-in-out;
     margin-top: 4vh;
 }
