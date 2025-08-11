@@ -56,3 +56,12 @@ h1, h2{
     cursor: pointer;
     transform: rotate(360deg);
 }
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
