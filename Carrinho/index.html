@@ -12,7 +12,19 @@
 </head>
 
 <body>
+    <a href="../Loja/index.html">CONTINUAR COMPRANDO</a>
     <h1>Carrinho</h1>
+    <div id="lista"></div>
+    <h3 id="total"></h3>
+
+    <button onclick="gerarPedido()" class="btn-word">
+        <img src="./Images/wordIcon.webp" alt="WORD">
+    </button>
+
+    <p id="pedido">
+        Pedido gerado com sucesso
+        <button id="sc" onclick="succesClose()">❌</button>
+    </p>
 </body>
 
 </html>
