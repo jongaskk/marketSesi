@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         }).catch((error) => console.error('Erro ao carregar dados', error))
 
-        $('#produtos-container').on('click', 'btn-adicionar-ao-carrinho', function() {
-            const indexDoProduto = $(this).data('índice')
+        $('#produtos-container').on('click', '.btn-adicionar-ao-carrinho', function() {
+            const indexDoProduto = $(this).data('indice')
             const produtoSelecionado = produtos[indexDoProduto]
 
             let carrinho = JSON.parse(localStorage.getItem('carrinho')) || []
