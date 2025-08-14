@@ -18,7 +18,7 @@
     width: auto;
 }
 
-.btn.word{
+.btn-word{
     border: none;
     background-color: transparent;
     position: fixed;
@@ -26,13 +26,13 @@
     right: 10px;
 }
 
-.btn.word img{
+.btn-word img{
     opacity: 0.7;
     border-radius: 100%;
     transition: all 200ms ease-in-out;
 }
 
-.btn.word img:hover{
+.btn-word img:hover{
     opacity: 1;
     cursor: pointer;
     box-shadow: #0000008f 1px 5px 5px;
@@ -45,6 +45,9 @@ body{
     justify-content: center;
     gap: 4vh;
     padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(29, 29, 29);
+    color: #fff;
 }
 
 h1{
@@ -64,7 +67,6 @@ a{
 
 a:hover{
     opacity: 1;
-
 }
 
 #lista{
@@ -103,4 +105,3 @@ a:hover{
     opacity: 1;
     transform: scale(1.5);
 }
-
