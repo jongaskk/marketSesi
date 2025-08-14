@@ -50,7 +50,7 @@ function gerarPedido(){
     const listaElement = document.getElementById('lista')
     const totalElement = document.getElementById('total')
 
-    const listaClone = listaElement.clodeNode(true)
+    const listaClone = listaElement.cloneNode(true)
 
     $(listaClone).find('button').remove()
 
