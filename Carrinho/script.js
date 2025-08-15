@@ -60,7 +60,7 @@ function gerarPedido(){
     const conteudoHTML = `
         <html>
             <head>
-                <meta charset='UTF-8/>
+                <meta charset='UTF-8'/>
             </head>
             <body>
                 <h1>Pedido Confirmado</h1>
